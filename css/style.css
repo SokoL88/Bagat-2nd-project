@@ -3,6 +3,7 @@
 *::before{
     box-sizing: border-box;
 }
+
 body{
     font-family: Montserrat;
     font-style: normal;
@@ -57,5 +58,62 @@ a{
     font-weight: bold;
     font-size: 17px;
     line-height: 21px;
+    color: #FFFFFF;
+}
+
+.title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 110%;
+    color: #00FEFF;
+}
+.contetn_container {
+}
+.header__content {
+
+}
+.header__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 103.32%;
+    color: #00FEFF;
+}
+.header__service {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.header__btn {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #002047;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+
+    background: #00FEFF;
+
+    padding: 15px 22px 14px;
+}
+.header__btn-arrow {
+    padding-left: 11px;
+}
+.text_we {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: right;
     color: #FFFFFF;
 }
