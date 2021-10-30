@@ -22,8 +22,7 @@ a{
     background: url(/images/header__bg.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: cover;
-    min-height: 100vh;
+    background-size: cover; 
 }
 .container{
     max-width: 1090px;
@@ -36,6 +35,16 @@ a{
     justify-content: space-between;
     padding-top: 37px;
 }
+
+.logo__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__link{
+    margin-right: 25px;
+}
+
 .menu{
     font-family: Montserrat;
     font-style: normal;
@@ -46,8 +55,10 @@ a{
 }
 .menu__list{
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
+}
+.menu__item{
+    margin-right: 40px;
 }
 .phone{
     color: #FFFFFF;
@@ -68,8 +79,12 @@ a{
     font-size: 50px;
     line-height: 110%;
     color: #00FEFF;
+
+    max-width: 568px;
+    margin-top: 76px;
+    margin-bottom: 56px;
 }
-.contetn_container {
+.content_container {
 }
 .header__content {
 
@@ -85,11 +100,22 @@ a{
 .header__service {
     font-family: Montserrat;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 24px;
-    line-height: 140%;
+    line-height: 25px;
+    color: #FFFFFF;
+
+    margin-bottom: 28px;
+}
+.header__text-p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
     color: #FFFFFF;
 }
+
 .header__btn {
     font-family: Montserrat;
     font-style: normal;
@@ -116,4 +142,18 @@ a{
     line-height: 140%;
     text-align: right;
     color: #FFFFFF;
+    max-width: 460px;
+}
+
+.bold__price{
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+}
+.btn__p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 67px;
 }
