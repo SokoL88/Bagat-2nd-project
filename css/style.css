@@ -177,3 +177,46 @@ a{
     color: #252D37;
     max-width: 821px;
 }
+
+.service__title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    color: #001E42;
+    margin-bottom: 52px;
+}
+
+.direction__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 54px 67px;
+}
+.direction__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 63px;
+}
+
+.description__text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 130%;
+    color: #001E42;
+}
+.favor__img1,
+.favor__img4{
+    margin-right: 26px;
+}
+.favor__img2,
+.favor__img5{
+    margin-right: 25px; 
+}
+.favor__img3,
+.favor__img6{
+    margin-right: 30px;
+}
