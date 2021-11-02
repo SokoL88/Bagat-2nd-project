@@ -27,7 +27,7 @@ a{
 .container{
     max-width: 1090px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 0;
 }
 .navigation{
     display: flex;
@@ -258,6 +258,7 @@ a{
 }
 .goal__img {
     margin-right: 13px;
+    margin-left: 78px;
 }
 .goal__title {
     font-size: 48px;
@@ -286,13 +287,27 @@ a{
 .numbers{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 115px;
 }
 .rel_sh{
     position: relative;
+    max-width: 343px;
 }
-.capacity__text{
+.capasity__text1{
     align-items: center;
     padding-top: 47px;
     padding-left: 15px;
+    font-weight: 700;
+}
+.capasity__text2{
+    align-items: center;
+    padding-top: 47px;
+    padding-left: 30px;
+    font-weight: 700;
+}
+.capasity__text3{
+    align-items: center;
+    padding-top: 47px;
+    padding-left: 30px;
     font-weight: 700;
 }
