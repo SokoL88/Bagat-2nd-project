@@ -311,3 +311,68 @@ a{
     padding-left: 30px;
     font-weight: 700;
 }
+
+.prices {
+}
+.prices__title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    margin-bottom: 25px;
+}
+.inner_container {
+    display: flex;
+    justify-content: space-between;
+}
+.inner__prices {
+    max-width: 529px;
+}
+.price__text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    margin-bottom: 35px;
+}
+.price__text-small {
+    margin-bottom: 25px;
+}
+.button__flex {
+    display: flex;
+}
+.btn__price{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border: 2px solid #001E42;
+    max-height: 50px;
+
+}
+.btn__price:nth-child(1){
+    margin-right: 24px;
+}
+.price__cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.card_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid #001E42;
+    text-align: center;
+    max-width: 259px;
+    margin-right: 12px;
+}
+.card__text {
+}
+.card_2 {
+    border: 2px solid #001E42;
+    text-align: center;
+}
+
+.down__arrow{
+    text-align: center;
+}
