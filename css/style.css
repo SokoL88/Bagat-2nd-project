@@ -172,7 +172,7 @@ a{
     color: #001E42;
     margin-right: 70px;
     white-space: nowrap;
-    max-width: width 186px;
+    max-width: 186px;
 }
 .about__text{
     font-family: Montserrat;
@@ -312,8 +312,7 @@ a{
     font-weight: 700;
 }
 
-.prices {
-}
+
 .prices__title {
     font-weight: bold;
     font-size: 50px;
@@ -339,18 +338,40 @@ a{
 .button__flex {
     display: flex;
 }
-.btn__price{
+.abs_btn{
+    position: relative;
+}
+.btn__price1{
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     border: 2px solid #001E42;
-    max-height: 50px;
-
+    padding: 17px 54px 18px 22px;
+    letter-spacing: 0.05em;
+    transform: matrix(1, 0, 0, 1, 0, 0);
 }
-.btn__price:nth-child(1){
+.btn__price2{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border: 2px solid #001E42;
+    padding: 17px 56px 18px 22px;
+    letter-spacing: 0.05em;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.btn__price1{
     margin-right: 24px;
+}
+.btn__price1:hover,
+.btn__price2:hover{
+    background-color: #F2F2F2;
+    outline: 4px solid #F2F2F2;
+    cursor: pointer;
 }
 .price__cards {
     display: flex;
@@ -358,21 +379,70 @@ a{
     flex-direction: row;
 }
 .card_1 {
+    padding: 40px 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border: 2px solid #001E42;
     text-align: center;
     max-width: 259px;
     margin-right: 12px;
 }
-.card__text {
-}
 .card_2 {
     border: 2px solid #001E42;
     text-align: center;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid #001E42;
+    max-width: 259px;
 }
-
 .down__arrow{
-    text-align: center;
+    position: absolute;
+}
+.pruce1{
+    top: 3px;
+    right: 45px;
+}
+.pruce2{
+    top: 3px;
+    right: 25px;
+}
+.card__text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #001E42;
+}
+.card__title4 {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.card__title3 {
+    font-size: 70px;
+    line-height: 115%;
+    color: #001E42;
+}
+.clients{
+    margin-top: 151px;
+    margin-bottom: 25px;
+}
+.clients__title{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    margin-bottom: 25px;
+}
+.clients__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.clients__item{
+    max-width: 162px;
+    max-height: 110px;
 }
