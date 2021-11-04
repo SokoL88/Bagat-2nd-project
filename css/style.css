@@ -16,8 +16,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
-
-
+ul{
+    list-style-type: none;
+}
 .header{
     background: url(/images/header__bg.jpg);
     background-repeat: no-repeat;
@@ -445,4 +446,30 @@ a{
 .clients__item{
     max-width: 162px;
     max-height: 110px;
+}
+
+.infra__container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.infra__title{
+    margin-bottom: 25px;
+}
+.infro_text1{
+    max-width: 530px;
+}
+.infro__text{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 120%;
+    color: #A5AAAF;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+.text__item{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 140%;
+    color: #A5AAAF;
 }
