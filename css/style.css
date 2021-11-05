@@ -447,7 +447,9 @@ ul{
     max-width: 162px;
     max-height: 110px;
 }
-
+.infra{
+    margin-bottom: 25px;
+}
 .infra__container{
     display: flex;
     justify-content: space-between;
@@ -472,4 +474,78 @@ ul{
     font-size: 13px;
     line-height: 140%;
     color: #A5AAAF;
+}
+.inner__container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form__title{
+    max-width: 374px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 107px;
+    margin-right: 100px;
+    
+}
+.form {
+    background: url(/images/form__bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto;
+    height: 430px;
+}
+.contacts__form{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.contacts__form-input {
+    background-color: #ECECEC;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 17px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 10px 20px;
+    width: 343px;
+}
+.booking__area{
+    resize: none;
+    height: 70px;
+    font-size: 18px;
+    line-height: 140%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    color: #001E42;
+    padding: 10px 20px;
+    margin-bottom: 13px;
+}
+.form__input{
+    margin-top: 50px;
+}
+.booking__btn{
+    background: #00FEFF;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+}
+.booking__arrow{
+    padding-left: 15px;
+}
+.booking__label{
+    font-size: 10px;
+    line-height: 140%;
+    color: #A5AAAF;
+}
+.booking__label{
+    margin-bottom: 13px;
 }
